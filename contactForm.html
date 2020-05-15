@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contactForm.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="contactForm.js"></script>
+</head>
+<body>
+    <h1>Contact us!</h1>
+    <form action="https://formspree.io/andrewsebertii@gmail.com" method="POST">
+        <label>
+            E-mail
+            <input type="email" class="email"/>
+        </label>
+        <label>
+            Subject
+            <input type="text" class="subject"/>
+        </label>
+        <label>
+            Message
+            <textarea class="message"></textarea>
+        </label>
+        <div class="status">
+
+        </div>
+        <button type="submit" class="submit">
+            Send
+        </button>
+    </form>
+</body>
+</html>
